@@ -1,6 +1,6 @@
 # Lingxi (`lx`) · the execution layer for agents
 
-[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent)
+[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent) [![paper](https://img.shields.io/badge/paper-site-7B61FF)](https://www.nvwalab.cn/en/)
 
 > [!NOTE]
 > Product version `1.0.0`, internal build number `0.1.7`, contract `2.0` (frozen). The capability set is reported by `lx info`.
@@ -22,6 +22,10 @@
 Each release package is accompanied by a SHA-256 checksum file. **Whether a GPG signature (`.asc` plus public key) is provided depends on the release page**; each `RELEASE.meta` records version / commit / binary hash / signature state / whether tests actually ran.
 
 **Further reading**: [the whitepaper (PDF, in Chinese)](灵犀-白皮书.pdf) — design trade-offs, the safety model, measured readings and falsifiable predictions.
+
+> [!NOTE]
+> **Theoretical background**: Lingxi's engineering has a theoretical grounding in [NvwaLab's *Carbon–Silicon Intelligent Symbiosis Theory*](https://www.nvwalab.cn/en/) (Digital Life Theory / Intelligence Theory / Altruism Theory). The theory itself began with observations from a long-running agent engineering practice; those observations became experiments, and the experiments led to frameworks and criteria. The first published paper is [INT-11, *The Nature of Intelligence in Large Language Models: The Triumph of Language as the Highest-Density, Lowest-Entropy Information Carrier*](https://www.nvwalab.cn/en/papers/int-11/); the Lingxi Volume also lists LX-01, *Making Machine Intelligence Ubiquitous: The Lingxi Architecture as an Engineering Record in Extreme Memory and Context Windows* (queued).
+> The site is labelled a draft and has not been peer reviewed; the theoretical work is not an empirical guarantee of this software's behaviour. Capabilities and readings remain defined by `lx info` / `tools/list` and each package's `RELEASE.meta`.
 
 > **Language**: this README and `AGENTS.en.md` are in English. The whitepaper and the other in-package handbooks (`QUICKSTART.md`, `LICENSE.md`, `SECURITY.md`, `examples/`) are in Chinese, and the CLI's human-readable summary is printed in Chinese only; machine-readable fields are the same in either language.
 

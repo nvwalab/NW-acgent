@@ -1,6 +1,6 @@
 # 灵犀（Lingxi）· 智能体的执行层
 
-[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent)
+[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent) [![paper](https://img.shields.io/badge/paper-site-7B61FF)](https://www.nvwalab.cn/)
 
 > [!NOTE]
 > 产品版本 `1.0.0`，内部构建号 `0.1.7`，契约 `2.0`（已冻结）。能力面以 `lx info` 为准。
@@ -24,6 +24,10 @@
 发布包随附 SHA-256 校验文件；**是否提供 GPG 签名（`.asc` 与公钥）以发布页标注为准**，包内 `RELEASE.meta` 同时记录版本 / 提交 / 二进制哈希 / 签名状态 / 测试是否实际执行。
 
 **延伸阅读**：[灵犀白皮书（PDF）](灵犀-白皮书.pdf) —— 设计取舍、安全模型、验证读数与可检验预测。
+
+> [!NOTE]
+> **理论支撑**：灵犀的技术有 [NvwaLab《碳硅智能共生论》](https://www.nvwalab.cn/)（数字生命论 / 智能论 / 利他论）作为理论脉络；这套理论起自一处长期运行的智能体工程实践观察，由观察整理成实验，再推演出框架与判据。首篇已发布论文：[INT-11《大语言模型的智能本质——语言作为最高密度低熵信息载体的胜利》](https://www.nvwalab.cn/papers/int-11/)；灵犀卷另列 LX-01《让机器智能无处不在——灵犀架构在极限内存与上下文窗口内的工程记录》（待发布）。
+> 站内内容标注为初稿、未经同行评审；理论论述不构成本软件能力或可靠性的实证保证，读数仍以 `lx info` / `tools/list` 与包内 `RELEASE.meta` 为准。
 
 ---
 
