@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 465" width="1040" height="465">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6673"/></marker>
+<linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef4fb"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+<linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f7fafd"/></linearGradient>
+</defs>
+<rect width="1040" height="465" fill="#ffffff"/>
+<rect x="0" y="0" width="1040" height="58" fill="url(#hg)"/>
+<rect x="0" y="0" width="5" height="58" fill="#0b5cad"/>
+<text x="24" y="36" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="19.5" fill="#1b2733" text-anchor="start" font-weight="bold">能力面：开箱有什么、没有的、要另换构建的</text>
+<text x="1016" y="35" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7d8896" text-anchor="end" font-weight="normal">04 · 能力面</text>
+<rect x="0" y="57" width="1040" height="1" fill="#d9e1ea"/>
+<rect x="24" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="24" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="24" y="78" width="316" height="4" rx="2" fill="#1a7f37"/>
+<rect x="40" y="100" width="10" height="10" rx="2" fill="#1a7f37"/>
+<text x="58" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#1a7f37" text-anchor="start" font-weight="bold">开箱可用（* 项默认关闭）</text>
+<circle cx="44" cy="136" r="3.2" fill="#1a7f37"/>
+<text x="56" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">文件读写、检索、聚合</text>
+<circle cx="44" cy="163" r="3.2" fill="#8c959f"/>
+<text x="56" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* 受控结构化命令（默认关闭）</text>
+<circle cx="44" cy="190" r="3.2" fill="#1a7f37"/>
+<text x="56" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">长程多步 + 断点续跑</text>
+<circle cx="44" cy="217" r="3.2" fill="#1a7f37"/>
+<text x="56" y="221" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">常驻巡检与阈值上报</text>
+<circle cx="44" cy="244" r="3.2" fill="#1a7f37"/>
+<text x="56" y="248" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">可重建的记忆</text>
+<circle cx="44" cy="271" r="3.2" fill="#8c959f"/>
+<text x="56" y="275" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* 工业设备只读（默认关闭）</text>
+<circle cx="44" cy="298" r="3.2" fill="#8c959f"/>
+<text x="56" y="302" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* 任务级规划（B 模式）</text>
+<rect x="362" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="362" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="362" y="78" width="316" height="4" rx="2" fill="#b42318"/>
+<rect x="378" y="100" width="10" height="10" rx="2" fill="#b42318"/>
+<text x="396" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#b42318" text-anchor="start" font-weight="bold">本构建里没有</text>
+<circle cx="382" cy="136" r="3.2" fill="#b42318"/>
+<text x="394" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">任意 shell（永不交付模型）</text>
+<circle cx="382" cy="163" r="3.2" fill="#b42318"/>
+<text x="394" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">出网搜索</text>
+<circle cx="382" cy="190" r="3.2" fill="#b42318"/>
+<text x="394" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">物理域写入 / 急停</text>
+<circle cx="382" cy="217" r="3.2" fill="#b42318"/>
+<text x="394" y="221" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">目标理解与跨任务编排</text>
+<circle cx="382" cy="244" r="3.2" fill="#b42318"/>
+<text x="394" y="248" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">多智能体调度</text>
+<circle cx="382" cy="271" r="3.2" fill="#b42318"/>
+<text x="394" y="275" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">OS 级隔离（容器/虚拟机）</text>
+<circle cx="382" cy="298" r="3.2" fill="#b42318"/>
+<text x="394" y="302" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">分布式调度</text>
+<rect x="700" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="700" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="700" y="78" width="316" height="4" rx="2" fill="#9a6700"/>
+<rect x="716" y="100" width="10" height="10" rx="2" fill="#9a6700"/>
+<text x="734" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#9a6700" text-anchor="start" font-weight="bold">要另换构建 + 单独授权</text>
+<circle cx="720" cy="136" r="3.2" fill="#9a6700"/>
+<text x="732" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">写设定值 / 急停</text>
+<circle cx="720" cy="163" r="3.2" fill="#9a6700"/>
+<text x="732" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">现场闭环控制</text>
+<circle cx="720" cy="190" r="3.2" fill="#9a6700"/>
+<text x="732" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">SLA 与技术支持</text>
+<rect x="24" y="359" width="992" height="82" rx="10" fill="#f6f8fa" stroke="#d9e1ea" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="40" y="385" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">配置里声明本构建没有的能力 ⇒ 拒绝启动并点名，不会假装在做</text>
+<text x="40" y="405" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">* 三项属产品能力，本公开发行版默认关闭；实际能力面以 lx info 与 install.sh 输出为准</text>
+<text x="40" y="425" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">任务级规划指 B 模式逐步提案、或 --decompose 把目标拆成带依赖的子任务按拓扑序执行；不是跨任务编排</text>
+</svg>

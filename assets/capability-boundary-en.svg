@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 465" width="1040" height="465">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6673"/></marker>
+<linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef4fb"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+<linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f7fafd"/></linearGradient>
+</defs>
+<rect width="1040" height="465" fill="#ffffff"/>
+<rect x="0" y="0" width="1040" height="58" fill="url(#hg)"/>
+<rect x="0" y="0" width="5" height="58" fill="#0b5cad"/>
+<text x="24" y="36" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="19.5" fill="#1b2733" text-anchor="start" font-weight="bold">Capability surface: what ships, what does not, what needs another build</text>
+<text x="1016" y="35" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7d8896" text-anchor="end" font-weight="normal">04 · CAPABILITIES</text>
+<rect x="0" y="57" width="1040" height="1" fill="#d9e1ea"/>
+<rect x="24" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="24" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="24" y="78" width="316" height="4" rx="2" fill="#1a7f37"/>
+<rect x="40" y="100" width="10" height="10" rx="2" fill="#1a7f37"/>
+<text x="58" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#1a7f37" text-anchor="start" font-weight="bold">Ships and works (* off by default)</text>
+<circle cx="44" cy="136" r="3.2" fill="#1a7f37"/>
+<text x="56" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">file read/write, search, aggregation</text>
+<circle cx="44" cy="163" r="3.2" fill="#8c959f"/>
+<text x="56" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* controlled commands (off by default)</text>
+<circle cx="44" cy="190" r="3.2" fill="#1a7f37"/>
+<text x="56" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">long-horizon multi-step + resume</text>
+<circle cx="44" cy="217" r="3.2" fill="#1a7f37"/>
+<text x="56" y="221" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">resident inspection + threshold alerts</text>
+<circle cx="44" cy="244" r="3.2" fill="#1a7f37"/>
+<text x="56" y="248" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">rebuildable memory</text>
+<circle cx="44" cy="271" r="3.2" fill="#8c959f"/>
+<text x="56" y="275" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* industrial device reads (off by default)</text>
+<circle cx="44" cy="298" r="3.2" fill="#8c959f"/>
+<text x="56" y="302" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#5b6673" text-anchor="start" font-weight="normal">* task-level planning (Mode B)</text>
+<rect x="362" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="362" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="362" y="78" width="316" height="4" rx="2" fill="#b42318"/>
+<rect x="378" y="100" width="10" height="10" rx="2" fill="#b42318"/>
+<text x="396" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#b42318" text-anchor="start" font-weight="bold">Not in this build</text>
+<circle cx="382" cy="136" r="3.2" fill="#b42318"/>
+<text x="394" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">arbitrary shell (never exposed to models)</text>
+<circle cx="382" cy="163" r="3.2" fill="#b42318"/>
+<text x="394" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">web search</text>
+<circle cx="382" cy="190" r="3.2" fill="#b42318"/>
+<text x="394" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">physical writes / e-stop</text>
+<circle cx="382" cy="217" r="3.2" fill="#b42318"/>
+<text x="394" y="221" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">goal understanding, task orchestration</text>
+<circle cx="382" cy="244" r="3.2" fill="#b42318"/>
+<text x="394" y="248" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">multi-agent scheduling</text>
+<circle cx="382" cy="271" r="3.2" fill="#b42318"/>
+<text x="394" y="275" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">OS-level isolation (container/VM)</text>
+<circle cx="382" cy="298" r="3.2" fill="#b42318"/>
+<text x="394" y="302" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">distributed scheduling</text>
+<rect x="700" y="81" width="316" height="261" rx="12" fill="#e6edf5"/><rect x="700" y="78" width="316" height="261" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="700" y="78" width="316" height="4" rx="2" fill="#9a6700"/>
+<rect x="716" y="100" width="10" height="10" rx="2" fill="#9a6700"/>
+<text x="734" y="110" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="13.6" fill="#9a6700" text-anchor="start" font-weight="bold">Needs another build + licence</text>
+<circle cx="720" cy="136" r="3.2" fill="#9a6700"/>
+<text x="732" y="140" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">setpoints / emergency stop</text>
+<circle cx="720" cy="163" r="3.2" fill="#9a6700"/>
+<text x="732" y="167" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">closed-loop field control</text>
+<circle cx="720" cy="190" r="3.2" fill="#9a6700"/>
+<text x="732" y="194" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.1" fill="#1b2733" text-anchor="start" font-weight="normal">SLA and support</text>
+<rect x="24" y="359" width="992" height="82" rx="10" fill="#f6f8fa" stroke="#d9e1ea" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="40" y="385" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">Declaring a capability this build lacks ⇒ refuses to start and names it, never pretends</text>
+<text x="40" y="405" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">* Product capabilities disabled by default in this public build; see lx info and install.sh output</text>
+<text x="40" y="425" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">Task-level planning means Mode B step proposals or --decompose dependent subtasks in topological order; it is not cross-task orchestration</text>
+</svg>

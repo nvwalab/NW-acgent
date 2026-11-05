@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 518" width="1040" height="518">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6673"/></marker>
+<linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef4fb"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+<linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f7fafd"/></linearGradient>
+</defs>
+<rect width="1040" height="518" fill="#ffffff"/>
+<rect x="0" y="0" width="1040" height="58" fill="url(#hg)"/>
+<rect x="0" y="0" width="5" height="58" fill="#0b5cad"/>
+<text x="24" y="36" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="19.5" fill="#1b2733" text-anchor="start" font-weight="bold">How the controls stack: outer layers reject earlier</text>
+<text x="1016" y="35" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7d8896" text-anchor="end" font-weight="normal">02 · CONTROLS</text>
+<rect x="0" y="57" width="1040" height="1" fill="#d9e1ea"/>
+<rect x="24" y="80" width="992" height="64" rx="11" fill="#f5f9fe" stroke="#cbdcef" stroke-width="1.2"/>
+<circle cx="50" cy="105" r="12" fill="#0b5cad"/>
+<text x="50" y="109" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">1</text>
+<text x="72" y="109" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#1b2733" text-anchor="start" font-weight="bold">Capability profile + confirmation</text>
+<text x="72" y="130" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.4" fill="#5b6673" text-anchor="start" font-weight="normal">A capability not enabled in config does not exist; risky writes need out-of-band confirmation</text>
+<rect x="48" y="154" width="944" height="64" rx="11" fill="#eaf2fc" stroke="#cbdcef" stroke-width="1.2"/>
+<circle cx="74" cy="179" r="12" fill="#0b5cad"/>
+<text x="74" y="183" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">2</text>
+<text x="96" y="183" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#1b2733" text-anchor="start" font-weight="bold">Path and scope boundaries</text>
+<text x="96" y="204" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.4" fill="#5b6673" text-anchor="start" font-weight="normal">Sandbox root + per-task scope; out-of-scope is denied and the outside file stays byte-identical</text>
+<rect x="72" y="228" width="896" height="64" rx="11" fill="#dceaf9" stroke="#cbdcef" stroke-width="1.2"/>
+<circle cx="98" cy="253" r="12" fill="#0b5cad"/>
+<text x="98" y="257" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">3</text>
+<text x="120" y="257" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#1b2733" text-anchor="start" font-weight="bold">Dangerous-action backstop</text>
+<text x="120" y="278" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.4" fill="#5b6673" text-anchor="start" font-weight="normal">Destructive commands, special files (links, device nodes), escape tricks</text>
+<rect x="96" y="302" width="848" height="64" rx="11" fill="#cfe2f6" stroke="#cbdcef" stroke-width="1.2"/>
+<circle cx="122" cy="327" r="12" fill="#0b5cad"/>
+<text x="122" y="331" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="normal">4</text>
+<text x="144" y="331" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#1b2733" text-anchor="start" font-weight="bold">Pre-write quality checks</text>
+<text x="144" y="352" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.4" fill="#5b6673" text-anchor="start" font-weight="normal">Volume collapse, structure, secrets, syntax — fail means nothing is written</text>
+<line x1="120" y1="375" x2="120" y2="394" stroke="#5b6673" stroke-width="1.8" marker-end="url(#ah)"/>
+<rect x="24" y="399" width="992" height="44" rx="12" fill="#e6edf5"/><rect x="24" y="396" width="992" height="44" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<text x="40" y="424" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="14.5" fill="#1b2733" text-anchor="start" font-weight="bold">Primitives (only what was allowed)</text>
+<rect x="24" y="452" width="992" height="42" rx="10" fill="#f6f8fa" stroke="#d9e1ea" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="40" y="478" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">Every layer can deny on its own; the receipt names the layer and the reason code   ·   Missing criterion ⇒ deny</text>
+</svg>

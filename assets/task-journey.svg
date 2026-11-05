@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 291" width="1040" height="291">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#5b6673"/></marker>
+<linearGradient id="hg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#eef4fb"/><stop offset="1" stop-color="#f8fbff"/></linearGradient>
+<linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f7fafd"/></linearGradient>
+</defs>
+<rect width="1040" height="291" fill="#ffffff"/>
+<rect x="0" y="0" width="1040" height="58" fill="url(#hg)"/>
+<rect x="0" y="0" width="5" height="58" fill="#0b5cad"/>
+<text x="24" y="36" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="19.5" fill="#1b2733" text-anchor="start" font-weight="bold">一条任务的生命周期：任务进，回执出</text>
+<text x="1016" y="35" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="11.5" fill="#7d8896" text-anchor="end" font-weight="normal">01 · 任务流</text>
+<rect x="0" y="57" width="1040" height="1" fill="#d9e1ea"/>
+<text x="520.0" y="82" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#0b5cad" text-anchor="middle" font-weight="normal">复核 / 改路（不是重试同一个动作）</text>
+<rect x="24" y="113" width="177" height="95" rx="12" fill="#e6edf5"/><rect x="24" y="110" width="177" height="95" rx="12" fill="url(#cg)" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="24" y="110" width="177" height="4" rx="2" fill="#0b5cad"/>
+<text x="38" y="142" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1b2733" text-anchor="start" font-weight="bold">调用方</text>
+<text x="38" y="166" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">智能体 / 框架</text>
+<line x1="203" y1="157.5" x2="212" y2="157.5" stroke="#7d8896" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="215" y="113" width="177" height="95" rx="12" fill="#e6edf5"/><rect x="215" y="110" width="177" height="95" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="215" y="110" width="177" height="4" rx="2" fill="#0b5cad"/>
+<text x="229" y="142" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1b2733" text-anchor="start" font-weight="bold">任务</text>
+<text x="229" y="166" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">目标 · 步骤 · 作用域</text>
+<line x1="394" y1="157.5" x2="403" y2="157.5" stroke="#7d8896" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="406" y="113" width="227" height="95" rx="12" fill="#e6edf5"/><rect x="406" y="110" width="227" height="95" rx="12" fill="#eef4fb" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="406" y="110" width="227" height="4" rx="2" fill="#0b5cad"/>
+<text x="420" y="142" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1b2733" text-anchor="start" font-weight="bold">四道控制</text>
+<text x="420" y="166" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">档位与确认 · 路径与作用域 ·</text>
+<text x="420" y="183" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">危险动作兜底 · 写前检查</text>
+<line x1="635" y1="157.5" x2="644" y2="157.5" stroke="#7d8896" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="647" y="113" width="177" height="95" rx="12" fill="#e6edf5"/><rect x="647" y="110" width="177" height="95" rx="12" fill="#ffffff" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="647" y="110" width="177" height="4" rx="2" fill="#0b5cad"/>
+<text x="661" y="142" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1b2733" text-anchor="start" font-weight="bold">执行</text>
+<text x="661" y="166" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">文件 · 命令 · 聚合 ·</text>
+<text x="661" y="183" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">设备读点</text>
+<line x1="826" y1="157.5" x2="835" y2="157.5" stroke="#7d8896" stroke-width="1.6" marker-end="url(#ah)"/>
+<rect x="838" y="113" width="178" height="95" rx="12" fill="#e6edf5"/><rect x="838" y="110" width="178" height="95" rx="12" fill="#f1f8f2" stroke="#d9e1ea" stroke-width="1.2"/>
+<rect x="838" y="110" width="178" height="4" rx="2" fill="#1a7f37"/>
+<text x="852" y="142" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#1b2733" text-anchor="start" font-weight="bold">回执</text>
+<text x="852" y="166" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">五词 + 原因码 ·</text>
+<text x="852" y="183" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.2" fill="#5b6673" text-anchor="start" font-weight="normal">产物 sha256</text>
+<line x1="994" y1="102" x2="994" y2="86" stroke="#0b5cad" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<path d="M 994 86 L 46 86" stroke="#0b5cad" stroke-width="1.6" stroke-dasharray="5 4" fill="none"/>
+<line x1="46" y1="86" x2="46" y2="102" stroke="#0b5cad" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ah)"/>
+<rect x="24" y="225" width="992" height="42" rx="10" fill="#f6f8fa" stroke="#d9e1ea" stroke-width="1.2" stroke-dasharray="5 4"/>
+<text x="40" y="251" font-family="STHeiti, 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif" font-size="12.8" fill="#5b6673" text-anchor="start" font-weight="normal">任一道判不出 ⇒ 拒绝（fail-closed）　·　回执不来 ⇒ unknown，绝不当成功</text>
+</svg>
