@@ -1,5 +1,10 @@
 # Lingxi (`lx`) · the execution layer for agents
 
+[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent)
+
+> [!NOTE]
+> Product version `1.0.0`, internal build number `0.1.7`, contract `2.0` (frozen). The capability set is reported by `lx info`.
+
 > A single 2.6–3.2 MB binary that runs locally, needs no language runtime and no network access.
 > Two run modes: **Mode A** takes a task that has already been decomposed and executes it; **Mode B** takes a goal and lets a model propose the steps. Both modes share the same control checks and the same receipt format.
 
@@ -8,6 +13,9 @@
 ### A 2.6–3.2 MB single binary · no runtime dependency · 643 steps in one long run on a 32K window (Mode B)
 
 <sub>Chinese version → [`README.md`](README.md)</sub>
+
+> [!IMPORTANT]
+> Capabilities and the contract are defined by `lx info` / `tools/list`; both track the release, and this document may lag behind.
 
 **Positioning**: Lingxi is the execution layer for agents. It takes work that has already been decided and completes it reliably on a real machine, returning a structured receipt that can be checked offline. It carries out execution, applies the control checks and validates results; goal understanding, cross-task orchestration and multi-agent scheduling belong to the calling agent. Mode A takes a task the caller has already decomposed; Mode B takes one goal, has a model propose each step, and advances according to each receipt (`--decompose` first splits the goal into dependent subtasks and runs them in topological order; off by default). In both modes every step passes the same control checks. To verify: `lx info --config <cfg>` reports the capability set and MCP `tools/list` reports the tool surface.
 
@@ -235,9 +243,15 @@ Extent of real-hardware verification: the NAS (x86_64) ran the full system harne
 
 The released build reads devices but does not write to them; physical writes are a separate build. One polling process handles one device. Device polling is verified against a Modbus simulator — real protocol, four word orders, exception code `0x02` — not yet against a production PLC.
 
+> [!CAUTION]
+> The **physical write face is removed at compile time** in public builds (`RELEASE.meta` reports `physical_write=absent`): device state can be read, but setpoint and emergency-stop writes are unavailable. Enabling it requires a separately authorized build; a config change cannot turn it on.
+
 ---
 
 ## Installation and self-verification
+
+> [!TIP]
+> Verify the checksum before installing: `shasum -a 256 -c lx-1.0.0-<platform>.tar.gz.sha256`; run `gpg --verify` as well when the release page provides `.asc` and a public key.
 
 ```bash
 shasum -a 256 -c lx-1.0.0-<platform>.tar.gz.sha256   # integrity (included with every package)
@@ -342,7 +356,7 @@ Recomputing the readings below requires the source repository and a build enviro
 
 ## Next steps
 
-1. **Download a release package** (Releases) and follow the installation steps above; the self-verification reports the capabilities actually in force.
+1. **Download a release package** ([Releases](https://github.com/nvwalab/NW-acgent/releases)) and follow the installation steps above; the self-verification reports the capabilities actually in force.
 2. **Connect an agent host**: use the configuration snippet in `mcp.json`, then inspect the tool surface via `tools/list`.
 3. **Integrate directly**: read `QUICKSTART.md` and `examples/` (including **negative samples**, which show the shape of a denial receipt); Mode B credentials, exit codes and `--assert` are in the same `QUICKSTART.md`.
 4. **Require a build with the physical write face / a commercial license / support**: this requires a **separate build** and cannot be obtained by changing configuration; submit an issue on the release page.

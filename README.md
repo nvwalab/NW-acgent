@@ -1,5 +1,10 @@
 # 灵犀（Lingxi）· 智能体的执行层
 
+[![release](https://img.shields.io/github/v/release/nvwalab/NW-acgent?label=release)](https://github.com/nvwalab/NW-acgent/releases) [![contract](https://img.shields.io/badge/contract-2.0-blue)](https://github.com/nvwalab/NW-acgent) [![platforms](https://img.shields.io/badge/platforms-4-orange)](https://github.com/nvwalab/NW-acgent)
+
+> [!NOTE]
+> 产品版本 `1.0.0`，内部构建号 `0.1.7`，契约 `2.0`（已冻结）。能力面以 `lx info` 为准。
+
 > 单文件二进制，体积 2.6–3.2 MB，本地运行，不需要语言运行时，也不需要联网。
 > 两种运行模式：**A 模式**接收已拆好的任务并执行；**B 模式**接收一个目标，由模型逐步提案并执行。两种模式共用同一套控制判定与回执格式。
 
@@ -10,6 +15,9 @@
 > **English** — Lingxi is the execution layer for agents. A single 2.6–3.2 MB binary takes a structured task, passes it through four control layers (capability, path, dangerous action, pre-write quality), executes it, and returns a receipt that can be verified offline. Local-first: no runtime, no network, and no model except in Mode B. Every artifact carries a SHA-256, and a run is stamped `Verified` only when something other than the model did the checking.
 >
 > **[Full English README →](README.en.md)**
+
+> [!IMPORTANT]
+> 能力与契约以 `lx info` / `tools/list` 为准；二者随版本更新，本文档可能滞后。
 
 **定位**：灵犀是智能体的执行层，负责把已经决定要做的事在一台真实机器上可靠地做完，并交回可离线核对的结构化回执。它承担执行、控制判定与结果校验；目标理解、跨任务编排与多智能体调度由调用方的智能体负责。A 模式接收调用方已拆好的任务；B 模式接收一个目标，由模型逐步提案、按每步回执决定下一步（加 `--decompose` 可先拆成带依赖的子任务，按拓扑序执行，默认关闭）。两种模式下每一步都过同一套控制判定。验证方式：`lx info --config <配置>` 给出能力面，MCP `tools/list` 给出工具面。
 
@@ -237,7 +245,13 @@ A 模式经 `lx run` 一次性调用，或经常驻 MCP（stdio 或 HTTP）由�
 
 公开发行版**能读设备，不写设备**——物理域写入是另一个构建；单个巡检进程对应单台设备。设备巡检目前验证到 Modbus 模拟器（真实协议、四种字序、异常码 `0x02`），尚未接入真实产线 PLC。
 
+> [!CAUTION]
+> 对外发行版的物理域**写面已在编译期裁剪**（包内 `RELEASE.meta` 实测 `physical_write=absent`）：可读取设备状态，不能下发设定值或急停。需要写面须另行授权并单独构建，改配置无法开启。
+
 ## 安装与自验
+
+> [!TIP]
+> 安装前先校验随包哈希：`shasum -a 256 -c lx-1.0.0-<平台>.tar.gz.sha256`；发布页提供 `.asc` 与公钥时，再执行 `gpg --verify`。
 
 ```bash
 shasum -a 256 -c lx-1.0.0-<平台>.tar.gz.sha256   # 校验哈希（每个包都随附）
@@ -347,7 +361,7 @@ sh install.sh                                      # 安装并执行自验
 
 ## 下一步
 
-1. **下载发布包**（Releases），按上述安装步骤执行；安装后的自验将输出实际能力面。
+1. **下载发布包**（[Releases](https://github.com/nvwalab/NW-acgent/releases)），按上述安装步骤执行；安装后的自验将输出实际能力面。
 2. **接入智能体宿主**：引用 `mcp.json` 中的配置片段，随后通过 `tools/list` 查看工具面。
 3. **自行集成**：阅读 `QUICKSTART.md` 与 `examples/`（含**拒绝样例**，可实际观察拒绝回执的形态）；B 模式的凭据、退出码与 `--assert` 见同一份 `QUICKSTART.md`。
 4. **需要含物理域写面的构建 / 商业授权 / 技术支持**：该项属于**另行构建**，不能通过修改配置获得；请通过发布页 Issues 提交。
